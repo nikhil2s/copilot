@@ -1,0 +1,24 @@
+{
+  // =====================================================
+  // 🚀 VS Code Task: Auto Push to GitHub
+  // =====================================================
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto Push to GitHub",
+      "type": "shell",
+      "command": "bash ./auto_push.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "echo": true,
+        "focus": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
